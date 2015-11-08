@@ -9,6 +9,12 @@ Nodejs package to search query in google
 
     var google = require('google-query');
 
+    /*
+    
+      google.search([query],[page-num],[callback])    
+    
+    */
+    
     google.search("hello",1,function(url_list){
         var url_str = url_list.join('\n');
         console.log(url_str);
