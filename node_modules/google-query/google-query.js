@@ -38,9 +38,9 @@ search = function(query, page_num, callback_for_res){
                             '&start=%d', 
                             encoded_query, encoded_query, page_num * 10);
     var options = {
-      host: 'www.google.co.kr',
+      host: 'www.google.com',
       path: query_url,
-      headers: {'referer': 'https://www.google.co.kr/',
+      headers: {'referer': 'https://www.google.com/',
             'user-agent': 'Mozilla/5.0 (Windows NT 6.1) '+
             'AppleWebKit/537.36 (KHTML, like Gecko) '+
             'Chrome/44.0.2403.157 Safari/537.36'}};
