@@ -5,6 +5,10 @@ Nodejs package to search query in google
 
     npm install google-query
 
+# How to test library
+
+    node test.js
+
 # How to use
 
     var google = require('google-query');
